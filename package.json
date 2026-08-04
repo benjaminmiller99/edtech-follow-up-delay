@@ -1,0 +1,11 @@
+{
+  "name": "edtech-follow-up-delay",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "delay:follow-up": "tsx src/learner_follow_up.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0"
+  }
+}
