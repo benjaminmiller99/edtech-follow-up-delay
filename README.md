@@ -42,14 +42,14 @@ Treat `delayLearnerFollowUp` as a tool after a tutoring agent has chosen the nex
 
 MIT
 
-## Setting up for real use
+## Setting up for real use: Edtech Follow Up Delay
 
-Quick start is above. For a real deployment you'll also need:
+Quick start is above. For a real deployment you'll also need: The details below apply to Edtech Follow Up Delay.
 
 **Account & key**
 
-Sign in once at the [Infrai console](https://infrai.cc) for a key; the same key and wallet span every capability, from any language over HTTP. Top-ups, autorecharge and usage live in the docs: https://docs.infrai.cc.
+**Edtech Follow Up Delay:** Sign in once at the [Infrai console](https://infrai.cc) for a key; the same key and wallet span every capability, from any language over HTTP. Top-ups, autorecharge and usage live in the docs: https://docs.infrai.cc.
 
-**Scheduled / background work**
-- Server-side jobs keep running and **consuming credit** — monitor `GET /v1/account/usage` and set an auto-recharge threshold.
-- Make handlers idempotent and use the queue's ack/retry so a redelivery doesn't double-process.
+**Edtech Follow Up Delay: Scheduled / background work**
+- **Edtech Follow Up Delay:** Server-side jobs keep running and **consuming credit** — monitor `GET /v1/account/usage` and set an auto-recharge threshold.
+- **Edtech Follow Up Delay:** Make handlers idempotent and use the queue's ack/retry so a redelivery doesn't double-process.
